@@ -8,7 +8,7 @@ from langchain.agents import AgentExecutor
 import time
 
 # Securely get the Groq API key
-os.environ["GROQ_API_KEY"] = "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"
+os.environ["GROQ_API_KEY"] = "<Your-groq-api-key>"
 
 # Initialize the Groq language model
 model = ChatGroq(model="llama-3.1-8b-instant")
