@@ -16,7 +16,7 @@ Before running the script, you need to:
 2. Install the necessary Python packages:
 
 ```bash
-pip install langchain tqdm
+pip install langchain tqdm langchain_groq
 ```
 
 3. Set your Groq API key as an environment variable:
